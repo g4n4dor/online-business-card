@@ -1,0 +1,120 @@
+p {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Montserrat',serif;
+  line-height: 1.5em;
+  letter-spacing: 0.1 em;
+  text-align: justify-all;
+}
+
+h2 {
+  font-size: 19px;
+  font-family: 'Montserrat',serif;
+  line-height: 1.5em;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 38px;
+  font-family: 'Montserrat',serif;
+  line-height: 1.5em;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+
+img {
+  filter: grayscale(100%);
+}
+
+img:hover {
+  filter: grayscale(0%);
+}
+
+img:hover {
+  transform: scale(1.2);
+  transition: all 2s ease-in-out;
+}
+
+.content {
+  border-top: 1px solid hsla(0, 0%, 30%, .8);
+}
+
+img {
+  padding: 25px;
+  background-color: black;
+}
+
+.profile-card {
+  background-color: hsla(0, 0%, 95%, .5);
+  border-radius: 3%;
+  box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 30px;
+}
+
+body {
+  background: url('assets/background-picture.jpg') no-repeat center center fixed;
+  background-size: cover;
+  
+}
+
+.head, .about {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.content {
+  padding: 5% 10%;
+}
+
+/* Contact links */
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+}
+
+.profile-image {
+  margin-top: -60px;
+}
+
+img {
+  width: 400px;
+  height: auto;
+  border-radius: 3%;
+}
+
+.head, .content {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.head, .links {
+  text-align: center;
+}
+
+body {
+  height: 100vh;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-card {
+  width: 480px;
+  max-width: calc(100vw - 23px);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
