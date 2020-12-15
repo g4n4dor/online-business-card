@@ -42,6 +42,10 @@ img:hover {
 }
 
 img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
   padding: 25px;
   background-color: black;
 }
